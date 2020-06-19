@@ -1,0 +1,39 @@
+body {
+    background-color: #494949;
+    margin: auto;
+    margin-top: 200px;
+    max-width: 500px;
+    max-height: 300px;
+
+}
+
+.name {
+    color: black;
+    background-color: white;
+    font-size: 60px;
+    padding: 25px 40px;
+}
+
+li {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    color: white;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.hello {
+    font-size: 45px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.bottom {
+    color: red;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
