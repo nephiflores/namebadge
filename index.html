@@ -5,62 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Name Badge 1</title>
     <link rel="stylesheet" href="index.css"/>
-
-<!--
-    <style>
-        body {
-            background-color: #494949;
-            margin: auto;
-            margin-top: 200px;
-            max-width: 500px;
-            max-height: 300px;
-
-        }
-
-        .name {
-            color: black;
-            background-color: white;
-            font-size: 60px;
-            padding: 25px 40px;
-        }
-
-        li {
-            list-style: none;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: red;
-            color: white;
-            width: 250px;
-            font-size: 20px;
-            text-align: center;
-            padding-left: 40px;
-            padding-right: 40px;
-        }
-
-        .hello {
-            font-size: 45px;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-        }
-
-        .bottom {
-            color: red;
-            border-bottom-left-radius: 15px;
-            border-bottom-right-radius: 15px;
-        }
-    </style>
--->
-
 </head>
 <body>
-    
+    <input type="text" id="nameinput" placeholder="First name" value="">
+    <button onclick="myFunction()">Print Name</button>
+    <button onclick="location.reload();">Reset</button>
+
     <div>
         <ul>
             <li class="hello">Hello</li>
             <li>my name is</li>
-            <li class="name">Nephi</li>
+            <li id="input" class="name">Nephi</li>
             <li class="bottom"> .</li>
         </ul>
     </div>
 
+<script src="index.js"></script>
 </body>
 </html>
